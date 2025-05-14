@@ -1,0 +1,16 @@
+.doctors-section {
+    padding: 64px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .doctors-list {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .doctors-list p {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }

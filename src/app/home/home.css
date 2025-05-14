@@ -1,0 +1,183 @@
+.banner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .banner-content {
+      flex-direction: row;
+    }
+  }
+  
+  .banner-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 32px;
+  }
+  
+  .banner-button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: var(--border-radius);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-button:hover {
+    background-color: var(--dark-blue);
+  }
+  
+  .banner-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  @media (min-width: 768px) {
+    .banner-title {
+      font-size: 4.5rem;
+    }
+    
+    .banner-subtitle {
+      font-size: 1.7rem;
+    }
+    
+    .banner-image-wrapper {
+      height: 400px;
+    }
+  }
+  
+  .blob-background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  
+  .blob-image {
+    object-fit: contain;
+    transform: scale(1.4);
+  }
+  
+  .doctor-image-container {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+  
+  .doctor-image {
+    object-fit: contain;
+  }
+  
+  .partner-section {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 24px 0;
+  }
+  
+  .partner-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  
+  .trovaci-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--dark-blue);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .trovaci-button:hover {
+    background-color: white;
+    color: var(--dark-blue);
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .about-section {
+    padding: 64px 0;
+  }
+  
+  .about-subtitle {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--primary-color);
+    line-height: 1.8;
+  }
+  
+  .about-text p {
+    margin-bottom: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .about-subtitle {
+      font-size: 1rem;
+    }
+  }
