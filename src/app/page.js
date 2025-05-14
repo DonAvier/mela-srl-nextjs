@@ -58,8 +58,8 @@ export default function HomePage() {
           <p className="about-subtitle">Mela Srl è una società di servizi</p>
           <div className="about-text">
             <p>
-              Mela Srl nasce dall'esperienza trentennale nell' ambito della
-              sorveglianza sanitaria del dott. Mordini Arrigo, Malaguti
+              Mela Srl nasce dall&apos;esperienza trentennale nell&apos; ambito
+              della sorveglianza sanitaria del dott. Mordini Arrigo, Malaguti
               Giuseppe, Pierotti Francesco, affiancati da altri 2 medici
               competenti.
             </p>
@@ -71,7 +71,7 @@ export default function HomePage() {
               avere sempre disponibilità, affidabilità, competenza.
             </p>
             <p>
-              L'azienda ha sede a Maranello in via Garibaldi 56, ed opera sia
+              L&apos;azienda ha sede a Maranello in via Garibaldi 56, ed opera sia
               presso la sede sia direttamente presso gli stabilimenti dei
               Clienti servendosi di ambulatori mobili attrezzati per effettuare
               la Sorveglianza Sanitaria, questa ultima modalità riduce al minimo

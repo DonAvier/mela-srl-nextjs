@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.melav.it/sitemap.xml
+
+# Blocca accesso alle API interne
+Disallow: /api/
+
+# Crawl-delay per bot rispettosi
+Crawl-delay: 1
+
+# Googlebot specifico
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bingbot specifico
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
